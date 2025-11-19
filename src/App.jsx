@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Sun, Moon } from 'lucide-react';
-import Forest from './components/Forest';
+import Game from './components/Game';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,7 +25,7 @@ function App() {
       </header>
 
       <main className="container mx-auto py-8">
-        <Forest />
+        <Game />
       </main>
 
       <footer className="border-t border-gray-200 dark:border-gray-800 py-4 px-4 text-center">
